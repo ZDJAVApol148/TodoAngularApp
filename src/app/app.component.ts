@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'TodoAngularApp';
+  title: string;
+
+  constructor() {
+    this.title = 'Spring Boot - Todo Angular Application';
+  }
 }
